@@ -1,6 +1,6 @@
 
 
-let codProd = parseInt(prompt('Bienvenidos a DeepGamerX. agrega tus productos al Carro \n1-tarjeta grafica $550\n2-procesador $350\n3-Fuente De Poder $180\n4-Memoria Ram $110\n5-Disipador $100\n6-Gabinete $80\n0-Finalizar Compra'));
+let codProd = parseInt(prompt('Bienvenidos a DeepGamerX. agrega tus productos al Carro \n1-Tarjeta grafica $550\n2-Procesador $350\n3-Fuente De Poder $180\n4-Memoria Ram $110\n5-Disipador $100\n6-Gabinete $80\n0-Finalizar Compra'));
 let total = 0;
 const IVA = 0.19;
 const DESC_EF = 0.15;
@@ -41,7 +41,7 @@ while (codProd != 0) {
     codProd = parseInt(prompt('ingresa tus productos al carro\n1-tarjeta grafica $550\n2-procesador $350\n3-Fuente De Poder $180\n4-Memoria Ram $110\n5-Disipador $100\n6-Gabinete $80\n0-Finalizar Compra'));
 }
 
-let modoPago = parseInt(prompt('Elija su metodo de pago !\n1-Efectivo\n2-Debito\n3-Credito'));
+let modoPago = parseInt(prompt('Elija su metodo de pago !\n1-Efectivo (-15%)\n2-Debito\n3-Credito (Recargo 5%) '));
 
 
 if (modoPago == 1) {
